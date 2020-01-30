@@ -39,7 +39,7 @@ An elbow visualization plots the k-Means objective against values of `k`:
 
 ![](europarl_elbow.png)
 
-`k=21` is consistently picked as a good metric.
+`k=21` is consistently picked as the right `k` value.
 
 Finally, a k-Means model can be trained with the discovered `k` value:
 
