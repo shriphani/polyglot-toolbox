@@ -36,6 +36,21 @@ the optimal number of clusters since splitting further will produce marginal imp
 
 ![]()
 
+Finally, a k-Means model can be trained with the discovered `k` value:
+
+```
+python main.py cluster-documents europarl/europarl_full_noneval.txt europarl/europarl_skipgram.bin europarl/europarl_languages 21
+```
+
+Which will save a model in `europarl/europarl_languages_langid.joblib`. This is a scikit-learn model and the language identification
+problem is plainly a cluster assignment problem. 
+
+You can get cluster label assignments for a full file (I'm just using a 1000 document sample) using:
+
+```
+python main.py dump-pred europarl/europarl_full_noneval.1000.txt europarl/europarl_skipgram.bin europarl/europarl_languages_langid.joblib europarl/europarl_full_noneval.1000.prediction.txt
+```
+
 
 This technique has been successfully used in a variety of papers. The involved analyses spanned multiple ethnicities,
 dozens of low-resource languages, and noisy social-media text.
