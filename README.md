@@ -2,6 +2,10 @@
 
 Exploring polyglot word embeddings and their use in unsupervised language identification and related tasks.
 
+## Dependencies
+
+`pip install -r requirements.txt`
+
 ## Workflow
 
 We expect text to be **1 document per line**, **punctuation stripped**, and **whitespace separated tokens**
@@ -51,19 +55,24 @@ You can get cluster label assignments for a full file (I'm just using a 1000 doc
 python main.py dump-pred europarl/europarl_full_noneval.1000.txt europarl/europarl_skipgram.bin europarl/europarl_languages_langid.joblib europarl/europarl_full_noneval.1000.prediction.txt
 ```
 
+As a final step, you need a human to perform the mapping from cluster number to the actual language.
+
+## Use
 
 This technique has been successfully used in a variety of papers. The involved analyses spanned multiple ethnicities,
 dozens of low-resource languages, and noisy social-media text.
 
 _Voice for the Voiceless: Active Sampling to Detect Comments Supporting the Rohingyas_
 [Shriphani Palakodety](https://twitter.com/shriphani), [Ashiqur R. KhudaBukhsh](https://twitter.com/khudabukhsh), [Jaime G. Carbonell](https://www.cs.cmu.edu/~jgc/)
-
+AAAI 2020
 
 _Hope Speech Detection: A Computational Analysis of the Voice of Peace_
 [Shriphani Palakodety](https://twitter.com/shriphani), [Ashiqur R. KhudaBukhsh](https://twitter.com/khudabukhsh), [Jaime G. Carbonell](https://www.cs.cmu.edu/~jgc/)
+ECAI 2020
 
 _Mining Insights from Large-scale Corpora Using Fine-tuned Language Models_
 [Shriphani Palakodety](https://twitter.com/shriphani), [Ashiqur R. KhudaBukhsh](https://twitter.com/khudabukhsh), [Jaime G. Carbonell](https://www.cs.cmu.edu/~jgc/)
+ECAI 2020
 
 
 ## Cite:
