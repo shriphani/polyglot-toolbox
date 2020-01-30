@@ -12,19 +12,19 @@ We expect text to be **1 document per line**, **punctuation stripped**, and **wh
 
 We have a sample corpus created from a mixture of 21 European languages that can be downloaded [at this link](TODO).
 
-You can create a vocabulary file for FastText to work with using:
+Create a vocabulary file:
 
 ```
 python main.py vocab europarl/europarl_full_noneval.txt > europarl/europarl_full_noneval.vocab.txt
 ```
 
-Next, train 100-dim FastText embeddings using:
+Next, train 100-dim FastText embeddings:
 
 ```
 path/to/fasttext skipgram -input europarl/europarl_full_noneval.vocab.txt -output europarl/europarl_skipgram
 ```
 
-You can discover the appropriate value for `k` using either the Silhouette heuristic or the elbow heuristic.
+Discover the appropriate value for `k` using either the Silhouette heuristic or the elbow heuristic.
 Silhouette plots for values of `k` from 2 through 30:
 
 ```
@@ -47,8 +47,8 @@ Finally, a k-Means model can be trained with the discovered `k` value:
 python main.py cluster-documents europarl/europarl_full_noneval.txt europarl/europarl_skipgram.bin europarl/europarl_languages 21
 ```
 
-Which will save a model in `europarl/europarl_languages_langid.joblib`. This is a scikit-learn model and the language identification
-problem is plainly a cluster assignment problem. 
+Which will save a model in `europarl/europarl_languages_langid.joblib`. This is a scikit-learn model and language identification
+is done using cluster assignment. 
 
 You can get cluster label assignments for a full file (I'm just using a 1000 document sample) using:
 
