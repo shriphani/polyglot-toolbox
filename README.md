@@ -80,7 +80,7 @@ _Mining Insights from Large-scale Corpora Using Fine-tuned Language Models_<br /
 ECAI 2020
 
 
-## Cite:
+## Cite
 
 ```
 @inproceedings{kashmir,
