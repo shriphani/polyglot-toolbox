@@ -63,15 +63,15 @@ This technique has been successfully used in a variety of papers. The involved a
 dozens of low-resource languages, and noisy social-media text.
 
 _Voice for the Voiceless: Active Sampling to Detect Comments Supporting the Rohingyas_<br />
-[Shriphani Palakodety](https://twitter.com/shriphani), [Ashiqur R. KhudaBukhsh](https://twitter.com/khudabukhsh), [Jaime G. Carbonell](https://www.cs.cmu.edu/~jgc/)
+[Shriphani Palakodety](https://twitter.com/shriphani), [Ashiqur R. KhudaBukhsh](https://twitter.com/khudabukhsh), [Jaime G. Carbonell](https://www.cs.cmu.edu/~jgc/)<br />
 AAAI 2020
 
 _Hope Speech Detection: A Computational Analysis of the Voice of Peace_<br />
-[Shriphani Palakodety](https://twitter.com/shriphani), [Ashiqur R. KhudaBukhsh](https://twitter.com/khudabukhsh), [Jaime G. Carbonell](https://www.cs.cmu.edu/~jgc/)
+[Shriphani Palakodety](https://twitter.com/shriphani), [Ashiqur R. KhudaBukhsh](https://twitter.com/khudabukhsh), [Jaime G. Carbonell](https://www.cs.cmu.edu/~jgc/)<br />
 ECAI 2020
 
 _Mining Insights from Large-scale Corpora Using Fine-tuned Language Models_<br />
-[Shriphani Palakodety](https://twitter.com/shriphani), [Ashiqur R. KhudaBukhsh](https://twitter.com/khudabukhsh), [Jaime G. Carbonell](https://www.cs.cmu.edu/~jgc/)
+[Shriphani Palakodety](https://twitter.com/shriphani), [Ashiqur R. KhudaBukhsh](https://twitter.com/khudabukhsh), [Jaime G. Carbonell](https://www.cs.cmu.edu/~jgc/)<br />
 ECAI 2020
 
 
@@ -86,3 +86,4 @@ ECAI 2020
   year={2020}
 }
 ```
+
