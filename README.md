@@ -18,13 +18,15 @@ Create a vocabulary file:
 python main.py vocab europarl/europarl_full_noneval.txt > europarl/europarl_full_noneval.vocab.txt
 ```
 
-Next, train 100-dim FastText embeddings:
+Next, train 100-dim [FastText](https://fasttext.cc/) embeddings:
 
 ```
 path/to/fasttext skipgram -input europarl/europarl_full_noneval.vocab.txt -output europarl/europarl_skipgram
 ```
 
-Discover the appropriate value for `k` using either the Silhouette heuristic or the elbow heuristic.
+Discover the appropriate value for `k` using either the [silhouette heuristic](https://scikit-learn.org/stable/auto_examples/cluster/plot_kmeans_silhouette_analysis.html) or the [elbow heuristic](https://en.wikipedia.org/wiki/Elbow_method_(clustering)).
+
+
 Silhouette plots for values of `k` from 2 through 30:
 
 ```
@@ -34,6 +36,8 @@ python main.py discover-silhouette europarl/europarl_full_noneval.txt europarl/e
 Here's a silhouette plot for `k=21` which shows clear, well-separated clusters.
 
 ![](europarl_silhouettes21.png)
+
+
 
 An elbow visualization plots the k-Means objective against values of `k`:
 
