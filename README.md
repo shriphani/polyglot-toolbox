@@ -1,6 +1,6 @@
 # polyglot_toolbox
 
-Exploring polyglot word embeddings and their use in unsupervised language identification and related tasks.
+Polyglot word embeddings and their use in **unsupervised language identification** and related tasks.
 
 ## Dependencies
 
