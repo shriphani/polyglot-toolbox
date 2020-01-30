@@ -60,7 +60,7 @@ As a final step, you need a human to perform the mapping from cluster number to 
 
 ## Use
 
-This technique has been successfully used in a variety of papers. The involved analyses spanned multiple ethnicities,
+This technique has been successfully used in several recent papers. The involved analyses spanned multiple ethnicities,
 dozens of low-resource languages, and noisy social-media text.
 
 _Voice for the Voiceless: Active Sampling to Detect Comments Supporting the Rohingyas_<br />
