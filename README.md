@@ -33,12 +33,12 @@ python main.py discover-silhouette europarl/europarl_full_noneval.txt europarl/e
 
 Here's a silhouette plot for `k=21` which shows clear, well-separated clusters.
 
-![]()
+![](europarl_silhouettes21.png)
 
 An elbow visualization plots the k-Means objective against values of `k`. The `k` value corresponding to the _elbow_ is considered
 the optimal number of clusters since splitting further will produce marginal improvement in the k-Means objective.
 
-![]()
+![](europarl_elbow.png)
 
 Finally, a k-Means model can be trained with the discovered `k` value:
 
