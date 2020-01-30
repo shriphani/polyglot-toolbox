@@ -1,0 +1,4 @@
+MulticoreTSNE
+numpy
+scikit-learn
+git+git://github.com/facebookresearch/fastText.git
