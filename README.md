@@ -58,7 +58,7 @@ python main.py dump-pred europarl/europarl_full_noneval.1000.txt europarl/europa
 
 As a final step, you need a human to perform the mapping from cluster number to the actual language.
 
-## Use
+## In the Wild
 
 This technique has been successfully used in several recent papers. The involved analyses spanned multiple ethnicities,
 dozens of low-resource languages, and noisy social-media text.
