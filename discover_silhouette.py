@@ -97,7 +97,7 @@ def discover_silhouette(sents_f, model_f, prefix='', max_k=10):
         ax1.set_xticks([-0.1, 0, 0.2, 0.4, 0.6, 0.8, 1])
 
         # 2nd Plot showing the actual clusters formed
-        colors = cm.nipy_spectral(preds.astype(float) / K)
+        colors = cm.viridis(preds.astype(float) / K)
         ax2.scatter(dimred[:, 0], dimred[:, 1], marker='.', s=30, lw=0, alpha=0.7,
                     c=colors, edgecolor='k')
 
