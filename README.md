@@ -10,7 +10,7 @@ Polyglot word embeddings and their use in **unsupervised language identification
 
 We expect text to be **1 document per line**, **punctuation stripped**, and **whitespace separated tokens**
 
-We have a sample corpus created from a mixture of 21 European languages that can be downloaded [at this link](TODO).
+We have a sample corpus created from a mixture of 21 European languages that can be downloaded [at this link](http://shriphani.com/europarl.zip).
 
 Create a vocabulary file:
 
